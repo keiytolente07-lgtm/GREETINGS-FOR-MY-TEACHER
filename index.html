@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional Teacher's Day greeting card.">
+  <title>Happy Teacher's Day | Message Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-cat" aria-hidden="true">
+    <span class="ear left"></span>
+    <span class="ear right"></span>
+    <span class="face">
+      <span class="eye left"></span>
+      <span class="eye right"></span>
+      <span class="nose"></span>
+      <span class="whisker w1"></span>
+      <span class="whisker w2"></span>
+      <span class="bow"></span>
+    </span>
+  </div>
+
+  <div class="sparkles" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="card" id="card">
+      <div class="card-glow"></div>
+
+      <header class="top">
+        <div class="badge">A LITTLE NOTE OF APPRECIATION</div>
+        <div class="heart" aria-hidden="true">♡</div>
+      </header>
+
+      <div class="content">
+        <div class="photo-wrap">
+          <div class="photo-ring"></div>
+          <img src="assets/Randy.jpg" alt="Photo for the greeting card" class="teacher-photo">
+          <span class="photo-label">THANK YOU, SIR</span>
+        </div>
+
+        <div class="message">
+          <p class="eyebrow">With gratitude &amp; respect</p>
+          <h1>Happy<br><span>Teacher's Day!</span></h1>
+          <p class="intro">
+            Thank you for sharing your knowledge, patience, and guidance with us.
+            Your lessons go beyond the classroom and inspire us to keep learning,
+            improving, and believing in ourselves.
+          </p>
+          <p class="closing">
+            Wishing you a wonderful Teacher's Day filled with appreciation,
+            happiness, and the joy of knowing that your work makes a difference.
+          </p>
+
+          <div class="signature">
+            <span>Respectfully,</span>
+            <strong>KATE CASSANDRA PUNAY</strong>
+            <small>BSIS Student</small>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span>TEACH • INSPIRE • EMPOWER</span>
+        <button id="surpriseBtn" type="button">Open a little surprise ✨</button>
+      </footer>
+
+      <div class="surprise" id="surprise" role="status" aria-live="polite">
+        <div class="surprise-box">
+          <div class="mini-bow">🎀</div>
+          <h2>You are appreciated!</h2>
+          <p>Thank you for making learning meaningful and memorable.</p>
+          <button id="closeBtn" type="button">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <p class="hint">Move your mouse around the card ✦ Click the surprise button</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
